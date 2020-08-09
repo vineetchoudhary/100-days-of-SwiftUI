@@ -20,3 +20,6 @@ When I start learning about iOS Development around 2015, I used to watch Standfo
 
 #### 6. Animation
 [[Video](https://youtu.be/3krC2c56ceQ)] [[Slides](/CS193p/Slides/l6.pdf)] [[Reading](/CS193p/Reading/r3.pdf)] [[Assignment](/CS193p/Assignment/a3.pdf)]
+
+#### Demo Project
+- [Memorize](CS193p/Demo1-Memorize) (Using in-built LazyVGrid & LazyHGrid)
