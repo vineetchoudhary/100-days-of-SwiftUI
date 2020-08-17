@@ -19,15 +19,24 @@ struct EmojiMemoryGameView: View {
     }
     
     var body: some View {
-        LazyVGrid(columns: columns, spacing: spacing) {
-            ForEach(viewModel.cards) { card in
-                CartView(card: card).onTapGesture {
-                    viewModel.choose(card)
+        VStack {
+            LazyVGrid(columns: columns, spacing: spacing) {
+                ForEach(viewModel.cards) { card in
+                    CartView(card: card).onTapGesture {
+                        viewModel.choose(card)
+                    }
                 }
             }
+            .padding()
+            .foregroundColor(.orange)
+            
+            Button("Reset Game") {
+                withAnimation(.easeOut) { 
+                    self.viewModel.reset()
+                }
+            }
+            .foregroundColor(.red)
         }
-        .padding()
-        .foregroundColor(.orange)
     }
 }
 
@@ -46,6 +55,11 @@ struct CartView: View {
                     RoundedRectangle(cornerRadius: cornerRadius).fill(Color.white)
                     RoundedRectangle(cornerRadius: cornerRadius).stroke(lineWidth: lineWidth)
                     Text(card.content)
+                        .rotation3DEffect(
+                            .init(degrees: card.isFaceUp ? 0 : 180),
+                            axis: (x: 0.0, y: 1.0, z: 0.0)
+                        )
+                        .animation(Animation.linear(duration: 1))
                 } else {
                     RoundedRectangle(cornerRadius: cornerRadius).fill(Color.orange)
                 }
