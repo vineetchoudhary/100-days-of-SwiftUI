@@ -26,6 +26,6 @@ class EmojiMemoryGame: ObservableObject {
     }
     
     func reset() {
-        model = Self.create()
+        model = Self.create() 
     }
 }
