@@ -47,3 +47,15 @@ When I start learning about iOS Development around 2015, I used to watch Standfo
 
 #### Demo Project
 - [Memorize](CS193p/Demo1-Memorize) (Using in-built LazyVGrid & LazyHGrid)
+
+## WWDC 
+WWDC is the best source get in-depth knowledge about developing apps for Apple platforms by Apple. Here are some great WWDC 2020 session about SwiftUI.
+1. [Introduction to SwiftUI](https://developer.apple.com/wwdc20/10119)
+2. [What's new in SwiftUI](https://developer.apple.com/wwdc20/10041)
+3. [Build complications in SwiftUI](https://developer.apple.com/wwdc20/10048)
+4. [App essentials in SwiftUI](https://developer.apple.com/wwdc20/10037)
+5. [Visually edit SwiftUI views](https://developer.apple.com/wwdc20/10185)
+6. [Stacks, Grids, and Outlines in SwiftUI](https://developer.apple.com/wwdc20/10031)
+7. [Build document-based apps in SwiftUI](https://developer.apple.com/wwdc20/10039)
+8. [Data Essentials in SwiftUI](https://developer.apple.com/wwdc20/10040)
+9. [Build SwiftUI views for widgets](https://developer.apple.com/wwdc20/10033)
