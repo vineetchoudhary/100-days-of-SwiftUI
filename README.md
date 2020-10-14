@@ -61,17 +61,27 @@ WWDC is the best source get in-depth knowledge about developing apps for Apple p
 9. [Build SwiftUI views for widgets](https://developer.apple.com/wwdc20/10033)
 
 ## Official Documentation
-* **Essentials**
+- **Essentials**
     * [Xcode SwiftUI](https://developer.apple.com/xcode/swiftui/)
     * [SwiftUI](https://developer.apple.com/documentation/swiftui)
     * [Learn to Make Apps with SwiftUI](https://developer.apple.com/tutorials/swiftui/tutorials)
-* **User Interface**
+- **User Interface**
     * [Views and Controls](https://developer.apple.com/documentation/swiftui/views_and_controls)
     * [View Layout and Presentation](https://developer.apple.com/documentation/swiftui/view_layout_and_presentation)
     * [Drawing and Animation](https://developer.apple.com/documentation/swiftui/drawing_and_animation)
     * [Framework Integration](https://developer.apple.com/documentation/swiftui/framework_integration)
-* **Data and Events**
+- **Data and Events**
     * [State and Data Flow](https://developer.apple.com/documentation/swiftui/state_and_data_flow)
     * [Gestures](https://developer.apple.com/documentation/swiftui/gestures)
-* **Previews in Xcode**
-    * [Previews in Xcode](https://developer.apple.com/documentation/swiftui/previews)*
+- **Previews in Xcode**
+    * [Previews in Xcode](https://developer.apple.com/documentation/swiftui/previews)
+
+## Tutorials
+- [SwiftUI](https://developer.apple.com/tutorials/swiftui)
+- [Creating and Combining Views](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
+- [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
+- [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input)
+- [Drawing Paths and Shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
+- [Animating Views and Transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
+- [Composing Complex Interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
+- [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
